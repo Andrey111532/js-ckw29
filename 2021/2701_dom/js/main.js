@@ -1,4 +1,4 @@
-const html = document.documentElement;
+/*const html = document.documentElement;
 const body = document.body;
 
 const div = body.firstElementChild.lastElementChild;
@@ -10,4 +10,4 @@ setInterval(function() {
 }, 1000);
 
 console.dir(html);
-console.dir(body);
+console.dir(body);*/
