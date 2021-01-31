@@ -16,6 +16,7 @@ console.log(dateFromMillis);
 let dateFromDateString = new Date("2020-12-30T03:24:00");
 
 console.log("Из строки:");
+<<<<<<< Updated upstream
 console.log(dateFromDateString);
 
 // Через аргументы
@@ -36,3 +37,20 @@ console.log(currentDate.toTimeString());
 
 console.log(currentDate.toLocaleDateString());
 console.log(currentDate.toLocaleTimeString());
+=======
+console.log(dateFromMillis);
+
+
+console.log(currentDate.toLocaleDateString());
+console.log(currentDate.toLocaleTimeString());
+
+
+function getWeekDay(date) {
+    let days = ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
+  
+    return days[date.getDay()];
+  }
+  
+  let date = new Date();
+  console.log( getWeekDay(date) );
+>>>>>>> Stashed changes
